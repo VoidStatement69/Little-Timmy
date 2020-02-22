@@ -1,9 +1,9 @@
 <robot name="little_timmy">
   <link name="base_link">
     <visual>
-      <origin rpy="0 0 1.57" xyz="0.2 0 0.15"/>
+      <origin rpy="0 0 0" xyz="0.0 0 0.3"/>
       <geometry>
-        <mesh filename="package://little_timmy/meshes/little_timmy.dae"/>
+        <sphere radius="0.3"/>
       </geometry>
     </visual>
   </link>
